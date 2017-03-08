@@ -30,8 +30,8 @@ $(window).load(function(){
 
     // Swiper Clients
     var swiper = new Swiper('.swiper-testimonials', {
-        speed: 1000,
-        autoplay: 10000,
+        speed: 2000,
+        autoplay: 2000,
         slidesPerView: 1,
         loop: true,
     });
