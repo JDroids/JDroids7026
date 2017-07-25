@@ -12,13 +12,10 @@
     .btn-theme.active.focus, .btn-theme.active:focus, .btn-theme.focus, .btn-theme:active.focus, .btn-theme:active:focus, .btn-theme:focus, :active, :focus, a, a:active, a:focus, a:hover {
         outline: 0;
     }
+    
 
 .blockquote, .header .nav-item-child, .link, a, body, em, h1, h2, h3, h4, h5, h6, li, li a, li ul, p, span {
     font-family: Hind,sans-serif;
-}
-
-ul ul {
-    display: none;
 }
 
 .back-to-top, .header .nav-item-child, .link {
@@ -663,9 +660,13 @@ h3, h4 {
     list-style: none;
 }
 
-.header .navbar-nav {
-    display: block;
+.header .navbar-nav-ul {
+   padding-left: 0;
+   margin-bottom: 0;
+   list-style: none; 
+   display: none;
 }
+/*work on this part look into drop doown menu*/
 
 .header .nav-item:last-child .nav-item-child {
     padding-right: 0;
