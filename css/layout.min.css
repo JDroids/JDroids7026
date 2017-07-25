@@ -684,6 +684,7 @@ h3, h4 {
 
 .header .nav-item-hover {
     position: relative;
+    display: block;
 }
 
     .header .nav-item-hover:after {
