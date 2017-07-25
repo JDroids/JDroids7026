@@ -17,6 +17,10 @@
     font-family: Hind,sans-serif;
 }
 
+ul ul {
+    display: none;
+}
+
 .back-to-top, .header .nav-item-child, .link {
     text-transform: uppercase;
 }
