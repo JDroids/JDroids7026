@@ -21,6 +21,10 @@ ul ul {
     display: none;
 }
 
+li:hover ul {
+    display: block;
+}
+
 .back-to-top, .header .nav-item-child, .link {
     text-transform: uppercase;
 }
