@@ -21,10 +21,6 @@ ul ul {
     display: none;
 }
 
-li:hover ul {
-    display: block;
-}
-
 .back-to-top, .header .nav-item-child, .link {
     text-transform: uppercase;
 }
@@ -665,6 +661,10 @@ h3, h4 {
     padding-left: 0;
     margin-bottom: 0;
     list-style: none;
+}
+
+.header .navbar-nav:hover {
+    display: block;
 }
 
 .header .nav-item:last-child .nav-item-child {
