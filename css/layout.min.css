@@ -13,7 +13,7 @@
         outline: 0;
     }
 
-.blockquote, .header .nav-item-child, .link, a, body, em, h1, h2, h3, h4, h5, h6, li, li a, li a ul, p, span {
+.blockquote, .header .nav-item-child, .link, a, body, em, h1, h2, h3, h4, h5, h6, li, li a, li ul, p, span {
     font-family: Hind,sans-serif;
 }
 
